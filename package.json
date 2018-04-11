@@ -1,14 +1,17 @@
 {
-  "name": "parcel-sandbox",
+  "name": "vanilla-test",
   "version": "1.0.0",
-  "description": "Simple Parcel Sandbox",
+  "description": "My Simple Parcel Sandbox",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "4.17.5"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.6.1"
-  }
+  },
+  "keywords": ["qwerty"]
 }

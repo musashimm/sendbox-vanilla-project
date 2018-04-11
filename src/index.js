@@ -6,3 +6,5 @@ document.getElementById("app").innerHTML = `
   for more info about Parcel.
 </div>
 `;
+var _ = require('lodash');
+console.log(_.last([1,2]))
